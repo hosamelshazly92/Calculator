@@ -1,0 +1,89 @@
+body {
+    background-image: url(../ai/background_color.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container, #display {
+    border: solid 2px #ccc;
+    border-radius: 20px;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.buttonStyle {
+    width: 120px;
+    height: 60px;
+    margin: 6px 4px;
+    font-size: 20px;
+    font-family: monospace;
+/*    line-height: 100%;*/
+    color: #262626;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px 0px #333;
+    opacity: 0.4;
+    transition: 0.85s;
+}
+
+
+.buttonStyle:hover {
+    opacity: 0.6;
+    box-shadow: 1px 1px 10px 0px #ccc;
+}
+
+#display {
+    background-color: #333;    
+    opacity: 0.4;
+    transition: 0.75s;
+}
+
+#display:hover {
+    opacity: 0.5;
+}
+
+.input {
+/*    border-radius: 20px;*/
+    width: 45%;
+    height: 40px;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 28px;
+    font-family: monospace;
+    color: #ccc;
+}
+
+/*#input2 {
+    background-color: #ccc;
+    opacity: 0.5;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

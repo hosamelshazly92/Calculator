@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "description" content = "Calculator for performing math operations">
+        <meta name = "keywords" content = "calculator, math, addition, subtraction, multiplication, division">
+        <meta name = "author" content = "Hosam Elshazly">
+        <title>Calculator</title>
+        
+        <link rel = "stylesheet" type = "text/css" href = "../css/calc.css"></style>
+    </head>
+    <body>
+      
+      <div id = "container">
+          <input type = "button" value = "1" class = "buttonStyle" onclick = "getNumber(1)">
+          <input type = "button" value = "2" class = "buttonStyle" onclick = "getNumber(2)">
+          <input type = "button" value = "3" class = "buttonStyle" onclick = "getNumber(3)">
+          <input type = "button" value = "/" class = "buttonStyle" onclick = "getSign('/')">
+          
+          <input type = "button" value = "4" class = "buttonStyle" onclick = "getNumber(4)">
+          <input type = "button" value = "5" class = "buttonStyle" onclick = "getNumber(5)">
+          <input type = "button" value = "6" class = "buttonStyle" onclick = "getNumber(6)">
+          <input type = "button" value = "*" class = "buttonStyle" onclick = "getSign('*')">
+          
+          <input type = "button" value = "7" class = "buttonStyle" onclick = "getNumber(7)">
+          <input type = "button" value = "8" class = "buttonStyle" onclick = "getNumber(8)">
+          <input type = "button" value = "9" class = "buttonStyle" onclick = "getNumber(9)">
+          <input type = "button" value = "-" class = "buttonStyle" onclick = "getSign('-')">
+          
+          <input type = "button" value = "." class = "buttonStyle" onclick = "getSign('.')">
+          <input type = "button" value = "0" class = "buttonStyle" onclick = "getNumber(0)">
+           <input type = "button" value = "=" class = "buttonStyle" onclick = "calculate()">
+          <input type = "button" value = "+" class = "buttonStyle" onclick = "getSign('+')">
+            
+           <button id = "" class = "buttonStyle" onclick = "clearInput()">CE</button>
+           <button id = "" class = "buttonStyle" onclick = "backspace()"><</button>
+      </div>
+      
+      <div id = "display">
+          <input id = "input" class = "input" type = "text" placeholder = "0" readonly = "readonly">
+          <input id = "input2" class = "input" type = "text" placeholder = "" readonly = "readonly">
+      </div>
+       
+       
+       
+       
+       
+       
+       
+        <script language = "javascript" type = "text/javascript" src = "../js/calc.js"></script>
+    </body>
+</html>
